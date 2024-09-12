@@ -36,7 +36,7 @@ python main.py --exp_name='exp1' \
     --C=0.1 \
     --epsilon=0.1 \
 ```
-- [x] Train DEeR framework on kvasir dataset.
+- [x] Train DEeR framework on Kvasir dataset.
 ```
 python main.py --exp_name='exp1' \
     --data_dir='/home/meiluzhu2/data/kvasir-dataset-v2-processed-224' \
@@ -57,7 +57,9 @@ python main.py --exp_name='exp1' \
     --epsilon=6 \
 ```
 
+## Contact
 
+  Meilu Zhu (meiluzhu2-c@my.cityu.edu.hk)
 
 
 
