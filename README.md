@@ -15,8 +15,8 @@ pip install -r requirements.txt
 ```
 
 ### Scripts
-- [x] download [Blood Cell](https://zenodo.org/record/6496656/files/bloodmnist.npz?download=1) and [3D Organ](https://zenodo.org/record/6496656/files/organmnist3d.npz?download=1) datasets and put them into the dir './datasets/MedMNIST/'. For the HyperKvasir dataset, the processed version is avaliable via the [link](https://drive.google.com/file/d/1QOKXKwQh9wYVTWC1ckQnLF6LLpejpjXW/view?usp=sharing). Please unzip and put it into the dir './datasets/'.
-- [x]  Train DEeR framework on Kvasir dataset.
+- [x] download [Kvasir dataset](https://drive.google.com/file/d/1fzIIiZZYnpDtetjkdQOhSDTtjBkPbFCU/view?usp=sharing) and [OCT-8](https://zenodo.org/record/6496656/files/organmnist3d.npz?download=1) datasets and put them into the dir './data/'.
+- [x]  Train DEeR framework on OCT-8 dataset.
 ```
 python main.py --exp_name='exp1' \
     --data_dir='./data/Retinal_OCT-C8/' \
@@ -36,7 +36,7 @@ python main.py --exp_name='exp1' \
     --C=0.1 \
     --epsilon=0.1 \
 ```
-- [x] finetune the FedOSS framework on Blood Cell dataset.
+- [x] Train DEeR framework on kvasir dataset.
 ```
 python main.py --exp_name='exp1' \
     --data_dir='/home/meiluzhu2/data/kvasir-dataset-v2-processed-224' \
