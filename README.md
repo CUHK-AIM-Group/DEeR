@@ -39,7 +39,7 @@ python main.py --exp_name='exp1' \
 - [x] Train DEeR framework on Kvasir dataset.
 ```
 python main.py --exp_name='exp1' \
-    --data_dir='/home/meiluzhu2/data/kvasir-dataset-v2-processed-224' \
+    --data_dir='./data/kvasir-dataset-v2-processed-224/' \
     --node_num=12 \
     --iid=0 \
     --dirichlet_alpha=0.1 \
