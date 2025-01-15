@@ -57,6 +57,18 @@ python main.py --exp_name='exp1' \
     --epsilon=6 \
 ```
 
+## Citation
+If you find our work useful in your research or publication, please cite our work:
+```
+@article{zhu2024deer,
+  title={DEeR: Deviation Eliminating and Noise Regulating for Privacy-preserving Federated Low-rank Adaptation},
+  author={Zhu, Meilu and Mao, Axiu and Liu, Jun and Yuan, Yixuan},
+  journal={IEEE Transactions on Medical Imaging},
+  year={2024},
+  publisher={IEEE}
+}
+```
+
 ## Contact
 
   Meilu Zhu (meiluzhu2-c@my.cityu.edu.hk)
